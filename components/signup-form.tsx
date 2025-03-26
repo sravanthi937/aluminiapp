@@ -89,7 +89,7 @@ export function SignupForm() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="space-y-2">
             <Label htmlFor="firstName">First Name</Label>
-            <Input id="firstName" placeholder="John" {...form.register("firstName")} />
+            <Input id="firstName" placeholder="Sravanthi" {...form.register("firstName")} />
             {form.formState.errors.firstName && (
               <p className="text-sm font-medium text-destructive">{form.formState.errors.firstName.message}</p>
             )}
@@ -97,7 +97,7 @@ export function SignupForm() {
 
           <div className="space-y-2">
             <Label htmlFor="lastName">Last Name</Label>
-            <Input id="lastName" placeholder="Doe" {...form.register("lastName")} />
+            <Input id="lastName" placeholder="Akula" {...form.register("lastName")} />
             {form.formState.errors.lastName && (
               <p className="text-sm font-medium text-destructive">{form.formState.errors.lastName.message}</p>
             )}
@@ -106,7 +106,7 @@ export function SignupForm() {
 
         <div className="space-y-2">
           <Label htmlFor="email">Email</Label>
-          <Input id="email" placeholder="john.doe@example.com" {...form.register("email")} />
+          <Input id="email" placeholder="sravanthiakula622@example.com" {...form.register("email")} />
           {form.formState.errors.email && (
             <p className="text-sm font-medium text-destructive">{form.formState.errors.email.message}</p>
           )}
