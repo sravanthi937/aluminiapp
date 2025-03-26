@@ -65,7 +65,7 @@ export function LoginForm() {
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
         <div className="space-y-2">
           <Label htmlFor="email">Email</Label>
-          <Input id="email" placeholder="john.doe@example.com" {...form.register("email")} />
+          <Input id="email" placeholder="sravanthiakula622@example.com" {...form.register("email")} />
           {form.formState.errors.email && (
             <p className="text-sm font-medium text-destructive">{form.formState.errors.email.message}</p>
           )}
